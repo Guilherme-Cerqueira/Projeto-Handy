@@ -1,0 +1,112 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif, Arial;
+    text-decoration: none;
+    list-style: none;
+}
+
+header
+{
+    background-color: white;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px;
+    border-bottom: 2px solid rgba(27, 27, 27, 0.1) ;
+}
+
+header a
+{
+    color: #484b54;
+}
+
+.menu
+{
+    display: flex;
+}
+
+.menu li a
+{
+    color: #484b54;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main
+{
+    background-color: #f1f3f8;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main ul
+{
+    display: flex;
+    width: 1500px;
+}
+
+.sliderbox
+{
+    width: 500px;
+    overflow: hidden;
+}
+
+.slide
+{
+    width: 500px;
+    color:#484b54;
+}
+
+.sliderbox ul .slide
+{
+    position: relative;
+    animation: slide 20s infinite ease-out;  
+}
+
+@keyframes slide
+{
+        0%{right:0px; color: rgba(72, 75, 84)}
+
+        5%{right:0px; color: rgba(72, 75, 84)}
+    
+        10%{right:0px; color: rgba(72, 75, 84, 0)}
+    
+        20%{right:500px}
+    
+        30%{right:500px; color: rgba(72, 75, 84,)}
+
+        35%{right:500px; color: rgba(72, 75, 84)}
+    
+        40%{right:500px; color: rgba(72, 75, 84, 0)}
+    
+        50%{right:1000px}
+    
+        60%{right:1000px; color: rgba(72, 75, 84,)}
+
+        65%{right:1000px; color: rgba(72, 75, 84)}
+    
+        70%{right:1000px; color: rgba(72, 75, 84, 0)}
+    
+        80%{right:0px}
+
+        90%{right: 0px; color:  rgba(72, 75, 84, 0)}
+    
+        100%{right: 0px; color: rgba(72, 75, 84,)}	
+}
+
+.scrollbox
+{
+    background-color: #03bd47;
+    height:100px ;
+}
+
+span
+{
+    text-align: center;
+}
