@@ -71,12 +71,14 @@ header a
 
 @keyframes slide
 {
+    
+    
         0%{right:0px; color: rgba(72, 75, 84)}
 
         5%{right:0px; color: rgba(72, 75, 84)}
     
         10%{right:0px; color: rgba(72, 75, 84, 0)}
-    
+        
         20%{right:500px}
     
         30%{right:500px; color: rgba(72, 75, 84,)}
